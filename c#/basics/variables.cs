@@ -6,12 +6,14 @@ namespace App
         static void Main(string [] args){
             int a=90;//integer
             Int16 b=10;//16 bit-integer
-            Int32 c;//32 bit int 
-            Int64 d;//64 bit int
+            Int32 c;//32 bit int or int
+            Int64 d;//64 bit int or long
             
 
             float e;
             double f;
+
+            decimal h = 1.543643545246465765345657354M;
 
             bool r;
 
