@@ -23,7 +23,6 @@ namespace App
 
             int[] arr=new int [10];
 
-
             Console.WriteLine("The max value of int : "+int.MaxValue);
             Console.WriteLine("The max value of Int16 : "+Int16.MaxValue);
             Console.WriteLine("The max value of Int32 : "+Int32.MaxValue);
