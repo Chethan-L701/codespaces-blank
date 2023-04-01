@@ -12,7 +12,7 @@ namespace App
 
         public Greeting(){
             Console.Write("Enter your name : ");
-            string name = Console.ReadLine();
+            this.name = Console.ReadLine();
             ++numberOfPeople;
         }
 
@@ -39,7 +39,7 @@ namespace App
             p2.sayEveningGreet();p2.sayHello();
             p1.sayHi();p3.sayMorningGreet();
 
-            Console.WriteLine("The no of people are :{0}",Greeting.no);
+            Console.WriteLine("The no of people are :{0}",Greeting.numberOfPeople);
         }
     }
 }
